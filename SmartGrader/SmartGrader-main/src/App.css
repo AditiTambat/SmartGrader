@@ -1,0 +1,315 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+/* ---------------pd work---------------------- */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* No horizontal move */
+  overscroll-behavior: none; /* Stop swipe bounce */
+}
+
+
+.nav-btn1 {
+  padding: 8px 18px;
+  margin-left: 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn1 {
+  background-color: #4CAF50; /* green */
+  color: white;
+}
+.login-btn1:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-btn1 {
+  background-color: #2196F3; /* blue */
+  color: white;
+}
+.signup-btn1:hover {
+  background-color: #1976d2;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ----- */
+/* Page background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #eef2ff, #dbeafe);
+}
+
+/* Card styling */
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Button custom style */
+.login-btn {
+  background: linear-gradient(90deg, #8fa7dc, #1d4ed8);
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(90deg, #1d4ed8, #2563eb);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Signup link */
+.signup-link {
+  color: #2563eb;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ---- */
+.signup-form-container {
+  width: 450px;
+  margin: 50px auto;
+  background: linear-gradient(135deg, #eef4f2, #f0f2f4);
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.signup-form-container:hover {
+  box-shadow: 0px 8px 40px rgb(194, 194, 194);
+}
+
+.signup-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.signup-form-container .form-control {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.signup-form-container .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+.signup-form-container label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.signup-form-container .btn-primary {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #87b0db, #0056b3);
+  border: none;
+  transition: 0.3s;
+}
+
+.signup-form-container .btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+}
+
+.signup-form-container .btn-link {
+  color: #007bff;
+  font-weight: 500;
+}
+
+.signup-form-container .alert {
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+
+/* ---- */
+.sidenav-menu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidenav-item {
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+}
+
+.sidenav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.sidenav-item:hover {
+  background: rgba(255, 255, 255, 0.388);
+  border-radius: 8px;
+  transform: translateX(5px);
+}
+
+.sidenav-item a:hover {
+  color: #0c0c09; /* Golden highlight */
+}
+
+.sidenav-item i {
+  font-size: 1.2rem;
+}
+
+/* ----- */
+.student-slogan {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #2e7d32; /* Motivational green */
+  background: linear-gradient(to right, #a8e063, #56ab2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* -- */
+
+.b1 {
+  padding: 12px 28px;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  background: #eaedef; /* simple blue */
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.b1:hover {
+  background: #6af5f3; /* darker blue on hover */
+  transform: translateY(-3px) scale(1.03);
+  /* box-shadow: 0 8px 20px rgba(219, 52, 83, 0.3); */
+}
+
+.b1:active {
+  transform: scale(0.96);
+}
+/* ------- */
+.btn-sl {
+  color: #3498db; /* calm blue */
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.btn-sl::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: #3498db;
+  transition: width 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-sl:hover {
+  color: #2980b9; /* slightly darker on hover */
+  text-decoration: none;
+}
+
+  .btn-sl:hover::after {
+    width: 100%;
+    text-decoration: none;
+  }
+
+
+/* -----------------------pd work end------- */
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
