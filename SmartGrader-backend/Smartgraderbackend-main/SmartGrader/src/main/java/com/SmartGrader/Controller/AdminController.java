@@ -38,27 +38,6 @@ public class AdminController {
     }
         
         
-//    @GetMapping("/get-all-students")
-//    public List<StudentDTO> getAllStudents() {
-//        List<Student> students = studentrepo.findAll();
-//
-//        return students.stream().map(student -> {
-//            List<StudentAnswerDTO> answerDTOs = student.getAnswers().stream()
-//                .map(ans -> new StudentAnswerDTO(ans.getId(), ans.getAnswerText()))  // adjust field as per your entity
-//                .collect(Collectors.toList());
-//
-//            return new StudentDTO(
-//                student.getId(),
-//                student.getName(),
-//                student.getEmail(),
-//                student.getMobile(),
-//                student.getBatch(),
-//                student.getFinalScore(),
-//                answerDTOs
-//            );
-//        }).collect(Collectors.toList());
-//    }
-//        
     @GetMapping("/get-all-students")
     public List<StudentDTO> getAllStudents() {
         List<Student> students = studentrepo.findAll();
