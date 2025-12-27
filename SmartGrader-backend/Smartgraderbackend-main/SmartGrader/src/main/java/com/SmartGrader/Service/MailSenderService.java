@@ -50,7 +50,7 @@ public class MailSenderService {
     	return "<html>" +
     		       "<body style=\"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#f4f6f8; margin:0; padding:20px;\">" +
     		       "  <div style=\"max-width: 600px; background: #ffffff; margin: 40px auto; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); color: #333;\">" +
-    		       "    <h2 style=\"color:#2E86C1; margin-top: 0;\">Welcome to StudentGrader, " + studentName + "!</h2>" +
+    		       "    <h2 style=\"color:#2E86C1; margin-top: 0;\">Welcome to SmartGrader, " + studentName + "!</h2>" +
     		       "    <p style=\"font-size: 1.1em;\">Thank you for signing up at <strong>SmartGrader</strong>. We're excited to have you onboard.</p>" +
     		       "    <p style=\"font-size: 1em; margin-top: 20px;\">Get ready to challenge yourself and improve your skills!</p>" +
     		       "    <hr style=\"border:none; border-top:1px solid #eee; margin: 30px 0;\"/>" +

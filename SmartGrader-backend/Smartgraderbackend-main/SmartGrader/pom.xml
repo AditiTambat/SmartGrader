@@ -8,10 +8,10 @@
 		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.StudentGrader</groupId>
-	<artifactId>StudentGrader</artifactId>
+	<groupId>com.SmarttGrader</groupId>
+	<artifactId>SmarttGrader</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>StudentGrader</name>
+	<name>SmartGrader</name>
 	<description>Project for student Test and inhouse tests</description>
 	<url/>
 	<licenses>
