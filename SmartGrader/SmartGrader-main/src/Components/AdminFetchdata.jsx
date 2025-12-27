@@ -110,7 +110,7 @@ function AdminStudentData() {
                 disabled={isFetching}
                 style={{
                   padding: '8px 18px',
-                  backgroundColor: 'rgba(27, 231, 88, 1)',
+                  backgroundColor: 'rgba(56, 238, 111, 0.57)',
                   color: 'white',
                   border: 'none',
                   borderRadius: '6px',
@@ -120,10 +120,10 @@ function AdminStudentData() {
                   transition: 'background-color 0.3s ease',
                 }}
                 onMouseEnter={(e) =>
-                  (e.currentTarget.style.backgroundColor = 'rgba(39, 174, 96, 1)')
+                  (e.currentTarget.style.backgroundColor = 'rgba(65, 162, 106, 0.77)')
                 }
                 onMouseLeave={(e) =>
-                  (e.currentTarget.style.backgroundColor = 'rgba(27, 231, 88, 1)')
+                  (e.currentTarget.style.backgroundColor = 'rgba(54, 220, 104, 0.53)')
                 }
               >
                 {isFetching ? 'Fetching…' : 'Fetch Students Data'}
@@ -226,10 +226,10 @@ function AdminStudentData() {
               transition: 'background-color 0.3s ease',
             }}
             onMouseEnter={(e) =>
-              (e.target.style.backgroundColor = 'rgba(39, 174, 96, 1)')
+              (e.target.style.backgroundColor = 'rgba(39, 97, 234, 0.64)')
             }
             onMouseLeave={(e) =>
-              (e.target.style.backgroundColor = 'rgba(27, 231, 88, 1)')
+              (e.target.style.backgroundColor = 'rgba(49, 185, 167, 0.89)')
             }
           >
             Fetch Students Data
